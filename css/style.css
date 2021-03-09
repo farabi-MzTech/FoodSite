@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+form ul{
+        margin-left: 400px;
+
+}
+form ul li {
+    float: left;
+    padding-left: 20px;
+    
+}
+form a{
+    color: white;
+}
+nav{
+    background: url(../img/top-strip.jpg);
+}
+.nav-item .nav-link{
+    color: white;
+}
+nav .navbar-brand{
+    color: white;
+}
+.heart{
+    border: 4px solid red;
+}
+.fa-heart{
+    color: rgb(3, 30, 119);
+    font-size: 30px;
+}
+.cart{
+    background: white;
+}
+.cart ul {
+    display: flex;
+    margin: 0px 16px 11px 6px;
+}
+.cart ul li {
+    padding: 7px 0px 0px 9px;
+    
+}
+.menu{
+    background: rgb(42, 211, 197);
+}
+.menu ul {
+    display: flex;
+    padding: 18px 0px;
+}
+.menu ul li{
+    padding-left: 20px;
+    /* border-left: 2px solid white; */
+    justify-content: center;
+    
+    font-weight: bold;
+}
+.menu li a {
+    color: white ;
+}
+.image1{
+    margin-bottom: 24px;
+}
+.image3{
+    margin: 0px 0px 0px 0px ;
+}
+.box{
+    display: flex;
+}
+.box1{
+    height: 300px;
+    width: 180px;
+    background: tomato;
+    margin-right: 10px;
+}
+.box1 img{
+    height: 250px;
+    width: 180px;
+}
+.box1 h5 {
+    margin-left: 25px;
+    padding-top: 18px;
+}
+.box2{
+    height: 300px;
+    width: 180px;
+    background: tomato;
+    margin-right: 10px;
+}
+.box2 img{
+    height: 250px;
+    width: 180px;
+}
+.box3{
+    height: 300px;
+    width: 180px;
+    background: tomato;
+    margin-right: 10px;
+}
+.box3 img{
+    height: 250px;
+    width: 180px;
+}
+.box4{
+    height: 300px;
+    width: 180px;
+    background: tomato;
+    margin-right: 10px;
+}
+.box4 img{
+    height: 250px;
+    width: 180px;
+}
+.box5{
+    height: 300px;
+    width: 180px;
+    background: tomato;
+    margin-right: 10px;
+}
+.box5 img{
+    height: 250px;
+    width: 180px;
+}
+
+.heading h4 {
+    padding: 8px 0px;
+}
