@@ -60,10 +60,10 @@ nav .navbar-brand{
     padding: 18px 0px;
 }
 .menu ul li{
-    padding-left: 20px;
-    /* border-left: 2px solid white; */
+    margin-left: 20px;
+    border-left: 2px solid white;
     justify-content: center;
-    
+    padding-left: 20px;
     font-weight: bold;
 }
 .menu li a {
@@ -72,16 +72,14 @@ nav .navbar-brand{
 .image1{
     margin-bottom: 24px;
 }
-.image3{
-    margin: 0px 0px 0px 0px ;
-}
+
 .box{
     display: flex;
 }
 .box1{
     height: 300px;
     width: 180px;
-    background: tomato;
+    background: white;
     margin-right: 10px;
 }
 .box1 img{
@@ -89,50 +87,146 @@ nav .navbar-brand{
     width: 180px;
 }
 .box1 h5 {
-    margin-left: 25px;
-    padding-top: 18px;
+    /* margin-left: 25px;
+    padding-top: 18px; */
+    text-align: center;
 }
 .box2{
     height: 300px;
     width: 180px;
-    background: tomato;
+    background: white;
     margin-right: 10px;
 }
 .box2 img{
     height: 250px;
     width: 180px;
 }
+.box2 h5 {
+    /* margin-left: 25px;
+    padding-top: 18px; */
+    text-align: center;
+}
 .box3{
     height: 300px;
     width: 180px;
-    background: tomato;
+    background: white;
     margin-right: 10px;
 }
 .box3 img{
     height: 250px;
     width: 180px;
 }
+.box3 h5 {
+    /* margin-left: 25px;
+    padding-top: 18px; */
+    text-align: center;
+}
 .box4{
     height: 300px;
     width: 180px;
-    background: tomato;
+    background:white;
     margin-right: 10px;
 }
 .box4 img{
     height: 250px;
     width: 180px;
 }
+.box4 h5 {
+    /* margin-left: 25px;
+    padding-top: 18px; */
+    text-align: center;
+}
 .box5{
     height: 300px;
     width: 180px;
-    background: tomato;
+    background: white;
     margin-right: 10px;
 }
 .box5 img{
     height: 250px;
     width: 180px;
 }
+.box5 h5 {
+    /* margin-left: 25px;
+    padding-top: 18px; */
+    text-align: center;
+}
 
 .heading h4 {
     padding: 8px 0px;
+}
+.text-center {
+    text-decoration-color: green;
+}
+footer {
+    background-color: rgb(26, 24, 24);
+    margin-top: 40px;
+    color: white;
+    padding: 57px 0px;
+}
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+footer a {
+    color: #8C8C8C;
+    line-height: 28px;
+    font-size: 14px;
+    margin-left: -31px;
+}
+/*footer end*/
+.foot2 {
+    margin-top: 18px;
+    margin-left: -71px;
+}
+.foot2 h4 {
+    margin: 10px 0px 10px 42px;
+}
+.foot2 ul {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+.foot2 li {
+    float: right;
+    padding: 10px 0px 0px 42px;
+}
+.app ul {
+    display: flex;
+    margin-top: 20px;
+    margin: 14px 0px 0px -76px;
+}
+.app li {
+    padding: 10px 0px 0px 42px;
+}
+.copy p {
+    background-color: #000000;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 23px 0;
+}
+.footer-logo{
+   
+    text-align: center;
+    margin-top: 30px;
+
+}
+.service ul{
+    display: flex;
+    margin: 50px 0px 0px 167px;
+    
+}
+.service a{
+    border:2px solid rgb(42, 211, 197);
+    background-color: rgb(42, 211, 197);
+    margin-left: 30px;
+    padding: 11px 11px;
+    color: white;
+    font-weight: bold;
+
 }
